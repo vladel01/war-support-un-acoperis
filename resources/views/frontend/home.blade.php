@@ -12,7 +12,7 @@
             <div class="banner-content ml-sm-5 mt-3 mt-sm-0">
                 <h1 class="text-secondary font-weight-600 mb-sm-4 mb-2">{{ $welcomeTitle }}</h1>
                 <p class="mb-sm-5 mb-3">{!! $welcomeBody !!}</p>
-                <a href="{{ route('request-services') }}" class="btn btn-lg btn-primary mr-3 px-sm-5">{{ __('Request Help') }}</a>
+                <a href="{{ route('request-services') }}" class="btn btn-lg btn-default mr-3 px-sm-5">{{ __('Request Help') }}</a>
                 <a href="{{ route('get-involved') }}" class="btn btn-lg btn-secondary px-sm-5">{{ __('Offer Help') }}</a>
             </div>
         </div>
@@ -120,13 +120,13 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-sm-6">
-                <h2 class="text-secondary font-weight-600 mb-4">{{ $footerBlock1Title }}</h2>
+                <h2 class="text-default font-weight-600 mb-4">{{ $footerBlock1Title }}</h2>
                 <p>
                     {!! $footerBlock1Body !!}
                 </p>
             </div>
             <div class="col-sm-6">
-                <h2 class="text-secondary font-weight-600 mb-4">{{ $footerBlock2Title }}</h2>
+                <h2 class="text-default font-weight-600 mb-4">{{ $footerBlock2Title }}</h2>
                 <p>
                     {!! $footerBlock2Body !!}
                 </p>
